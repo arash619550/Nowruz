@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+input:last-child {
+    border: none;
+    color: white;
+    background-color: pink;
+    padding: 12px;
+}
